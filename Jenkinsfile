@@ -5,7 +5,7 @@ pipeline {
       agent any
       steps {
         echo 'hello BOcean'
-        sh '''!/bin/bash
+        sh '''#!/bin/bash
 
 touch /tmp/run1'''
       }
