@@ -5,9 +5,8 @@ pipeline {
       agent any
       steps {
         echo 'hello BOcean'
-        sh '''#!/bin/bash
-
-touch /tmp/run1'''
+        sh '''touch /tmp/run1
+echo "stage 1" >> /tmp/run1'''
       }
     }
 
