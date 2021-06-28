@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # sh organization-new-acc.sh --account_name htl-test-sub-11 --account_email dimdung108@gmail.com --cl_profile_name dimdung1
 # -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-# Note: This script can be used to create AWS new account using AWS Organization, Bootstrap account from the screatch ( creates all the resoruces using CFT)
-# 1. In order to create an account, you must sign in to your organization’s master account with a minimum of the following permissions:
+# Note: This can be used to create AWS new account using AWS Organization, Bootstrap account from the screatch ( creates all the resoruces using CFT)
+# 1. In order to create an account, you must sign in to your organizationâ€™s master account with a minimum of the following permissions:
 #   - organizations:DescribeOrganization
 #   - organizations:CreateAccount
 # 2. Person executing this script should have an access for Master Prayer account and workspace VPC ...
